@@ -10,7 +10,7 @@ export default ({command, mode}) => {
 
   console.log('command', command, mode, env)
   return defineConfig({
-    base: env ? `/jenkins-vite-test/${env}/` : '/jenkins-vite-test/', // 基础路径
+    base: env ? `/${env}/jenkins-vite-test/` : '/jenkins-vite-test/', // 基础路径
     plugins: [vue()],
   })
 }
