@@ -11,7 +11,8 @@ import HelloWorld from './components/HelloWorld.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Jenkins Vite test 哈哈哈哈 你个老六~~~2345644444" />
+  <HelloWorld msg="Jenkins Vite test 哈哈哈哈 你个老六~~~" />
+  <p>这次添加了钉钉通知~~</p>
 </template>
 
 <style scoped>
