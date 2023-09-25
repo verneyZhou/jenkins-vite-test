@@ -13,7 +13,9 @@ import HelloWorld from './components/HelloWorld.vue'
   </div>
   <HelloWorld msg="Jenkins Vite test 哈哈哈哈 你个老六~~~" />
   <p>这次添加了钉钉通知~~</p>
-  <p>测试参数化构建...12345asdfgh</p>
+  <p>测试参数化构建...</p>
+  <p>测试自动构建0925</p>
+  <p>哈哈哈 你个老六~~~</p>
 </template>
 
 <style scoped>
